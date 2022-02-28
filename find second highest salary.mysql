@@ -1,4 +1,5 @@
 # Write your MySQL query statement below
+#Ayush Kumar
 select salary as SecondHighestSalary
 from Employee
 where salary=(select distinct salary from Employee limit 1,1);
